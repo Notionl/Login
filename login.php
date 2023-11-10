@@ -1,7 +1,17 @@
+<?php
+# Las claves de acceso, ahorita las ponemos aquí
+# y en otro ejercicio las ponemos en una base de datos
+$usuario_correcto = "Leo";
+$palabra_secreta_correcta = "Shaggy54";
+/*
+Para leer los datos que fueron enviados al formulario,
+accedemos al arreglo superglobal llamado $_POST en PHP, y
+para obtener un valor accedemos a $_POST["clave"] en donde
+clave es el "name" que le dimos al input
  */
 # Nota: no estamos haciendo validaciones
-$usuario = $_POST "Leo";
-$palabra_secreta = $_POST "Shaggy54";
+$usuario = $_POST["usuario"];
+$palabra_secreta = $_POST["palabra_secreta"];
 
 # Luego de haber obtenido los valores, ya podemos comprobar:
 if ($usuario === $usuario_correcto && $palabra_secreta === $palabra_secreta_correcta) {
