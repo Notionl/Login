@@ -9,7 +9,7 @@ session_start();
 # Recomiendo: https://parzibyte.me/blog/2018/08/09/isset-vs-empty-en-php/
 if (empty($_SESSION["usuario"])) {
     # Lo redireccionamos al formulario de inicio de sesión
-    header("Location: formulario.html");
+    header("Location: index.html");
     # Y salimos del script
     exit();
 }
