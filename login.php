@@ -1,7 +1,7 @@
  */
 # Nota: no estamos haciendo validaciones
-$usuario = $_POST["usuario"];
-$palabra_secreta = $_POST["palabra_secreta"];
+$usuario = $_POST "Leo";
+$palabra_secreta = $_POST "Shaggy54";
 
 # Luego de haber obtenido los valores, ya podemos comprobar:
 if ($usuario === $usuario_correcto && $palabra_secreta === $palabra_secreta_correcta) {
